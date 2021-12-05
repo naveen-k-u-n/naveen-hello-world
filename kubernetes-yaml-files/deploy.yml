@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: bala
+      - name: nginx
         image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/myapp:<version>
         ports:
         - containerPort: 8080
