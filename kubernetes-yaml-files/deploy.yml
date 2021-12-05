@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/myapp:23
+        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/myapp:$BUILD_NUMBER
         ports:
         - containerPort: 8080
