@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/myapp:<VERSION>
+        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/naveen-doc-ecr:<VERSION>
         ports:
         - containerPort: 80
