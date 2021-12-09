@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/myapp:<version>
+        image: 598827825328.dkr.ecr.us-west-2.amazonaws.com/naveen-doc-ecr:<version>
         ports:
         - containerPort: 8080
